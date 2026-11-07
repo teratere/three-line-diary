@@ -1,2 +1,62 @@
-# three-line-diary
-A minimal, fixed-format bedtime 3-line diary with 30 reflective prompt templates, animated Hanko stamp rewards, local calendar tracking, and a 3-point time machine.
+# 💮 3行日記 (Three-Line Bedtime Diary)
+
+寝る前の1分で自己肯定感をチャージする、フォーマット固定型の3行日記Webアプリケーションです。  
+日常の中の「良かった・感謝・自分褒め」をはじめとする30種類の厳選テンプレート、レトロな達成ハンコ演出、月間カレンダー、そして過去の自分に出会える3つの時間軸タイムマシンを搭載しています。
+
+> **🌐 Live Demo:**  
+> ブラウザですぐに使える公開版はこちら 👉 **[https://selfup.net/diary/](https://selfup.net/diary/)**
+
+---
+
+## 🌟 主な機能 (Features)
+
+### 1. 迷わず10秒で書き始められる優先動線
+- **デフォルト固定:** 起動時は王道の「感謝・ポジティブ思考パターン」が即座にセットされ、迷わず1行目から書き始められます（初期テンプレは設定から自由に変更可能）。
+- **お気に入りピン留めタブ:** よく使う型を上部タブでワンタップ切り替え。
+- **気分3択クイック提案:** 「😊 良い日」「😮‍💨 モヤモヤ・疲れ」「🔥 成長・挑戦」の気分から最適な型を呼び出し。
+- **サイコロ（3回制限 & カタログ誘導）:** 底なしの決定疲労を防ぐためランダム抽選は1日3回まで。使い切ると全30選の一覧モーダルへ自然に案内します。
+
+### 2. 昭和レトロな短語ハンコ演出
+- 「完了」「済」「感謝」「頑張った」「はなまる」「いいね」から選べる印鑑。
+- 「記録する」を押した瞬間に、朱色の二重丸印鑑がポンッと回転しながら押される達成感あるアニメーション演出。
+
+### 3. 過去の自分と出会う「3つの時間軸タイムマシン」
+- **1ヶ月前の今日:** 短期の生活リズムや成長を実感。
+- **半年前の今日:** 反対の季節（夏↔冬）のバイオリズムを振り返り。
+- **1年前の今日:** 昨年の同じ空気感の中にいた自分からのメッセージ。
+
+### 4. キーワード自動抽出 & 安心のデータ管理
+- 入力テキストからキーワード（散歩、読書、睡眠、感謝など）を自動検知し、温かいフィードバックを生成。
+- **完全ローカル保存 (localStorage):** データはお使いの端末内のみに保持され、外部サーバーへ一切送信されません。
+- **JSONバックアップ & 復元:** 機種変更時や保管用のデータ書き出し・読み込みに対応。
+
+---
+
+## 🛠 開発について (About)
+
+このプロジェクトは、**生成AI（Gemini）を活用したバイブコーディング（対話型プログラミング）**によって制作されたシングルファイルWebアプリケーションです。
+
+- **企画・仕様設計・ディレクション:** teratere
+- **コード生成・実装:** Gemini
+- **構成技術:** 単一HTMLファイル（HTML5 / Canvas API / Web Audio API / Pure Vanilla CSS & JS）
+
+---
+
+## 🛠 構成技術 (Tech Stack)
+
+- **UI / Styling:** HTML5 / Tailwind CSS (CDN) / FontAwesome 6
+- **Typography:** Plus Jakarta Sans / Noto Sans JP / Yuji Boku (Google Fonts)
+- **Script:** Vanilla JavaScript (LocalStorage API)
+
+---
+
+## 🔗 関連リンク (Links)
+
+- 🚀 **Web App (Live):** [https://selfup.net/diary/](https://selfup.net/diary/)
+- 🏠 **Apps Hub:** [https://selfup.net/](https://selfup.net/) （個人開発Webツール一覧）
+
+---
+
+## 📄 ライセンス (License)
+
+MIT License
